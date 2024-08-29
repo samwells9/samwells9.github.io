@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Samuel K. Balls"
-url                      : https://sballs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sballs9.github.io/sballs.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sballs9/sballs.github.io"
 
