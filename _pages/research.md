@@ -2,9 +2,6 @@
 permalink: /research/
 title: "Work in Progress"
 author_profile: true
-redirect_from: 
-  - /research/
-  - /research.html
 ---
 
 My current research has focused on exploring a novel definition of random forest proximities called Random Forest Geometry and Accuracy Preserving (RF-GAP) Proximities. 
