@@ -1,6 +1,6 @@
 ---
 permalink: /blog/
-title: "Blog"
+title: "Latest"
 author_profile: true
 ---
 
