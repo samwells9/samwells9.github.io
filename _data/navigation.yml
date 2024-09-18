@@ -21,11 +21,11 @@ main:
   # url: /year-archive/
 
   - title: "Research"
-    url: /research/
+    url: https://sballs9.github.io/research/
     
   - title: "CV"
     url: "/files/Samuel_K_Balls_CV.pdf"
 
   - title: "Blog"
-    url: /blog/
+    url: https://sballs9.github.io/blog/
 
