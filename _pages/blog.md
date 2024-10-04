@@ -8,4 +8,4 @@ author_profile: true
 
 ![Dragon_Slayer](/images/dragon_slayer.png)
 
-# In the world of Kaggle competitions, one method has been known to conquer some of the toughest challenges: XGBoost. XGBoost, which stands for “Extreme Gradient Boosting”, is a highly scalable, efficient decision tree machine learning library that makes use of the gradient boosting framework, decision trees, and ensemble learning to provide excellent results.
+### Every Kaggle competition presents unique obstacles - a challenge that demands the sharpest of skills and the most powerful of tools. In this post, I will introduce you to one of the greatest weapons, which every data scientist should have in their arsenal. XGBoost, which stands for “Extreme Gradient Boosting”, is a highly scalable, efficient decision tree machine learning library that makes use of the gradient boosting framework, decision trees, and ensemble learning to provide excellent results. If you're just entering the battlefield of machine learning, this tutorial will teach you the basics of this model and help you start using it to slay your next competition.
