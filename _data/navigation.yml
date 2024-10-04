@@ -24,7 +24,7 @@ main:
     url: https://sballs9.github.io/research/
     
   - title: "CV"
-    url: "files/Samuel_K_Balls_CV.pdf"
+    url: "/files/Samuel_K_Balls_CV.pdf"
 
   - title: "Blog"
     url: https://sballs9.github.io/blog/
