@@ -6,4 +6,4 @@ author_profile: true
 
 ## Kaggle Slayer: Introduction to XGBoost
 
-![Dragon_Slayer](./Downloads/dragon_slayer.jpeg)
+![Dragon_Slayer](./images/dragon_slayer.jpeg)
