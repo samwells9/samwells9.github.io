@@ -4,4 +4,6 @@ title: "Latest"
 author_profile: true
 ---
 
-## Introduction to XGBoost
+## Kaggle Slayer: Introduction to XGBoost
+
+![Dragon_Slayer](./Downloads/dragon_slayer.jpeg)
