@@ -108,7 +108,7 @@ author_profile: true
 <h3>Conclusion</h3>
 
 <p>
-    With this brief introduction, I hope you have begun to understand the power of XGBoost. I have avoided going into the math behind the method in this post, but if you feel so inclined, it is truly amazing to see what is going on under the hood.
+    With this brief introduction, I hope you have started to appreciate the power of XGBoost. I have avoided diving into the math behind the method here, but if you're interested, it’s fascinating to see what’s happening under the hood.
 </p>
 
 <p>
