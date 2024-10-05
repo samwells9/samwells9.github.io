@@ -53,8 +53,8 @@ So what is it that makes XGBoost reign king when it comes to working with tabula
       Flexibility: XGBoost is highly adaptable, offering built-in functions for handling missing values and responding well to outliers. It includes tons of tuning parameters, which allows users to customize the model depending on the task and dataset. By          creating a simple parameter grid, users can quickly test various combinations of hyperparameters to identify the optimal configuration for their problem.
   </li>
   <li>
-      Performance: As XGBoost is a tree-based method, it is capable of identifying complex, non-linear relationships in the data. It also uses regularization parameters (<a href="https://www.youtube.com/watch?v=NGf0voTMlcs">L1<a> and <a       
-      href="https://www.youtube.com/watch?v=Q81RR3yKn30">L2<a>), which are used to prevent overfitting. This means that the model generalizes well for out-of-sample data. 
+      Performance: As XGBoost is a tree-based method, it is capable of identifying complex, non-linear relationships in the data. It also uses regularization parameters (<a href="https://www.youtube.com/watch?v=NGf0voTMlcs">L1</a> and <a   
+      href="https://www.youtube.com/watch?v=Q81RR3yKn30">L2</a>), which are used to prevent overfitting. This means that the model generalizes well for out-of-sample data. 
   </li>
 </ul>
 
