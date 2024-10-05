@@ -96,6 +96,10 @@ author_profile: true
 <p>
     Now, I will show you how easy it is start using XGBoost. As you will see below, we are able to create a simple model that performs quite well and runs instantly.
 </p>
+
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/xgboost_demo.png" alt="demo"/>
+</div>
 </details>
 
 
