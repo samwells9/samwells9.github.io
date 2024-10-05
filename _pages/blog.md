@@ -8,7 +8,7 @@ author_profile: true
 <summary style="cursor: pointer; font-weight: bold;">Kaggle Slayer: Introduction to XGBoost</summary>
 
 <p>
-  Every Kaggle competition presents unique obstacles—requiring the sharpest of skills and the most powerful of tools. In this post, I will introduce you to the greatest of weapons-one every data scientist must have in their arsenal: <span 
+  Every Kaggle competition presents unique obstacles—requiring the sharpest of skills and the most powerful of tools. In this post, I will introduce you to the greatest of weapons—one every data scientist must have in their arsenal: <span 
   style="color:#007BFF;">XGBoost</span>.
 </p>
 
