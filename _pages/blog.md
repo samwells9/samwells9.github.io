@@ -6,7 +6,7 @@ author_profile: true
 
 ## Kaggle Slayer: Introduction to XGBoost
 
-![Dragon_Slayer](/images/dragon_slayer.png)
+<img src="/images/dragon_slayer.png" alt="Dragon Slayer" width="300"/>
 
 Every Kaggle competition presents unique obstacles - requiring the sharpest of skills and the most powerful of tools. In this post, I will introduce you to one of the greatest weapons, which every data scientist should have in their arsenal: <span style="color:#007BFF;">XGBoost</span>. 
 
