@@ -108,8 +108,15 @@ author_profile: true
 <h3>Conclusion</h3>
 
 <p>
-    With this brief introduction, I hope you have begun to understand the power of XGBoost. I have avoided going into the math behind the method in this post, but if you feel so inclined, it is truly amazing to see what is going on under the hood. If you 
-    are interested, you can find more information <a href="https://www.geeksforgeeks.org/xgboost/">here</a>. Now that you have some basic information, I would encourage you to try it yourself. With a bit of practice, I am confident you will become a   
+    With this brief introduction, I hope you have begun to understand the power of XGBoost. I have avoided going into the math behind the method in this post, but if you feel so inclined, it is truly amazing to see what is going on under the hood.
+</p>
+
+<p>
+    If you are interested, you can find more information <a href="https://www.geeksforgeeks.org/xgboost/">here</a>.
+</p>
+  
+<p>
+    Now that you have some basic information, I would encourage you to try it yourself. With a bit of practice, I am confident you will become a   
     master of XGBoost, slaying even the mightiest of Kaggle competitions in no time. 
 </p>
 </details>
