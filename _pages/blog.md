@@ -40,6 +40,23 @@ If you want to learn more about any of these concepts, I highly recommend checki
 
 <h3>Why XGBoost?</h3>
 
+<p>
+So what is it that makes XGBoost the reigning king when it comes to working with tabular data? For the purpose of this post, I have narrowed it down to three key factors:
+</p>
+
+<ul>
+  <li>
+      Efficiency: XGBoost is extremely fast. It uses parallel processing and optimization techniques, allowing it to construct different parts of the trees simultaneously. This significantly expedites the process when compared traditional gradient boosting         methods, which build each tree one by one. It is also sparse-aware, which just means it only stores non-zero values in order to conserve memory. The method's handling of the data enables to excel with large datasets, making it a great option for   
+      applications in big data.
+  </li>
+  <li>
+      Flexibility: XGBoost is highly adaptable, offering built-in functions for handling missing values and responding well to outliers. It includes tons of tuning parameters, which allows users to customize the model depending on the task and dataset. By          creating a simple parameter grid, users can quickly test various combinations of hyperparameters to identify the optimal configuration for their problem.
+  </li>
+  <li>
+      Performance:
+  </li>
+</ul>
+
 </details>
 
 
