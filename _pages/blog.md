@@ -4,7 +4,8 @@ title: "Latest"
 author_profile: true
 ---
 
-## Kaggle Slayer: Introduction to XGBoost
+<details>
+<summary>**Kaggle Slayer: Introduction to XGBoost**</summary>
 
 <img src="/images/dragon_slayer.png" alt="Dragon Slayer" class="float-right"/>
 
@@ -18,13 +19,14 @@ The term “gradient boosting” comes from the concept of “boosting” — im
 
 In gradient boosting, an ensemble of shallow decision trees is iteratively trained, with each tree focusing on correcting the residual errors of the previous model. The final prediction is a weighted sum of all the tree predictions, creating a robust model from individually weak learners.
 
-If you are wanting to learn more about any of these concepts, I highly recommend checking out the Youtube channel "StatQuest with Josh Starmer". He offers a ton of simple yet thorough videos on machine learning. Here are a few of his playlists that explain the foundational components of XGBoost:
+If you are wanting to learn more about any of these concepts, I highly recommend checking out the YouTube channel "StatQuest with Josh Starmer". He offers a ton of simple yet thorough videos on machine learning. Here are a few of his playlists that explain the foundational components of XGBoost:
 
 * [Decision Trees](https://www.youtube.com/watch?v=_L39rN6gz7Y&list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
 * [Gradient Boosting](https://www.youtube.com/watch?v=3CC4N4z3GJc&list=PLblh5JKOoLUJjeXUvUE0maghNuY2_5fY6)
 
-### Why XGBoost?
+</details>
 
+### Why XGBoost?
 
 
 
