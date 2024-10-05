@@ -24,9 +24,9 @@ If you are wanting to learn more about any of these concepts, I highly recommend
 * [Decision Trees](https://www.youtube.com/watch?v=_L39rN6gz7Y&list=PLblh5JKOoLUKAtDViTvRGFpphEc24M-QH)
 * [Gradient Boosting](https://www.youtube.com/watch?v=3CC4N4z3GJc&list=PLblh5JKOoLUJjeXUvUE0maghNuY2_5fY6)
 
-</details>
-
 ### Why XGBoost?
+
+</details>
 
 
 
