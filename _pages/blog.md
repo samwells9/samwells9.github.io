@@ -81,15 +81,21 @@ author_profile: true
 
 <ul>
     <li>
-        Sports:
+        Sports: Predicting Match Outcomes, Sports Betting, Play Calling, Personnel Strategy, Draft Decisions, Injury Prediction and Prevention
     </li>
     <li>
-        Business:
+        Business: Customer Segmentation, Credit Scoring, Risk Assessment, Sale Forecasting
     </li>
     <li>
-        Health:
+        Health: Precision Medicine, Healthcare Cost Prediction, Pharmaceutical Studies, Genomics 
     </li>
 </ul>
+
+<h3>Demo</h3>
+
+<p>
+    Now, I will show you how easy it is start using XGBoost. As you will see below, we are able to create a simple model that performs quite well and runs instantly.
+</p>
 </details>
 
 
