@@ -71,6 +71,10 @@ author_profile: true
 
 <h3>Applications</h3>
 
+<div style="text-align:center;">
+  <img src="/images/fernando_tatis.png" alt="baseball"/>
+</div>
+
 <p>
   XGBoost has been successfully applied to:
 </p>
