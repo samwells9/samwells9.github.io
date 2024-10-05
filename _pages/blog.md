@@ -71,8 +71,8 @@ author_profile: true
 
 <h3>Applications</h3>
 
-<div style="text-align:center;">
-  <img src="/images/fernando_tatis.png" alt="baseball"/>
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/fernando_tatis.png" alt="baseball" style="width: 450px;"/>
 </div>
 
 <p>
