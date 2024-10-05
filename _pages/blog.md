@@ -94,12 +94,24 @@ author_profile: true
 <h3>Demo</h3>
 
 <p>
-    Now, I will show you how easy it is start using XGBoost. As you will see below, we are able to create a simple model that performs quite well and runs instantly.
+    Now, I will show you how easy it is start using XGBoost. Below, I trained a simple XGBoost model and compared to three common methods. 
 </p>
 
 <div style="text-align:center; margin: 20px;">
-  <img src="/images/xgboost_demo.png" alt="demo"/>
+  <img src="/images/xgboost_demo 2.png" alt="demo"/>
 </div>
+
+<p>
+    Voila! XGBoost has the lowest RMSE, meaning that its predicted values were closest to the true values in data.
+</p>
+
+<h3>Conclusion</h3>
+
+<p>
+    With this brief introduction, I hope you have begun to understand the power of XGBoost. I have avoided going into the math behind the method in this post, but if you feel so inclined, it is truly amazing to see what is going on under the hood. If you 
+    are interested, you can find more information <a href="https://www.geeksforgeeks.org/xgboost/">here</a>. Now that you have some basic information, I would encourage you to try it yourself. With a bit of practice, I am confident you will become a   
+    master of XGBoost, slaying even the mightiest of Kaggle competitions in no time. 
+</p>
 </details>
 
 
