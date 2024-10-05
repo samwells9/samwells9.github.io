@@ -41,7 +41,7 @@ If you want to learn more about any of these concepts, I highly recommend checki
 <h3>Why XGBoost?</h3>
 
 <p>
-So what is it that makes XGBoost the reigning king when it comes to working with tabular data? For the purpose of this post, I have narrowed it down to three key factors:
+So what is it that makes XGBoost reign king when it comes to working with tabular data? For the purpose of this post, I have narrowed it down to three key factors:
 </p>
 
 <ul>
@@ -53,7 +53,8 @@ So what is it that makes XGBoost the reigning king when it comes to working with
       Flexibility: XGBoost is highly adaptable, offering built-in functions for handling missing values and responding well to outliers. It includes tons of tuning parameters, which allows users to customize the model depending on the task and dataset. By          creating a simple parameter grid, users can quickly test various combinations of hyperparameters to identify the optimal configuration for their problem.
   </li>
   <li>
-      Performance:
+      Performance: As XGBoost is a tree-based method, it is capable of identifying complex, non-linear relationships in the data. It also uses regularization parameters (<a href="https://www.youtube.com/watch?v=NGf0voTMlcs">L1<a> and <a       
+      href="https://www.youtube.com/watch?v=Q81RR3yKn30">L2<a>), which are used to prevent overfitting. This means that the model generalizes well for out-of-sample data. 
   </li>
 </ul>
 
