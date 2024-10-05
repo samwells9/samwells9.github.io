@@ -40,6 +40,10 @@ author_profile: true
   <li><a href="https://www.youtube.com/watch?v=3CC4N4z3GJc&list=PLblh5JKOoLUJjeXUvUE0maghNuY2_5fY6">Gradient Boosting</a></li>
 </ul>
 
+<div style="text-align:center;">
+  <img src="/images/xgboost.png" alt="XGBoost"/>
+</div>
+
 <h3>Why XGBoost?</h3>
 
 <p>
