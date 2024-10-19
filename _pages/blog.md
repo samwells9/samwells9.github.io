@@ -97,6 +97,74 @@ author_profile: true
     Now, I will show you how easy it is start using XGBoost. Below, I trained a simple XGBoost model and compared to three common methods. 
 </p>
 
+```python
+# Load the dataset
+data = pd.read_csv('insurance.csv')
+
+# Define the features and the target variable
+X, y = data.iloc[:, :-1], data.iloc[:, -1]
+
+# Define the categorical and numerical features
+categorical_features = ['sex', 'smoker', 'region']
+numerical_features = ['age', 'bmi', 'children']
+
+# Preprocess the data
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', 'passthrough', numerical_features),
+        ('cat', OneHotEncoder(), categorical_features)
+    ])
+
+# Split the data into training and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Define the models
+models = {
+    'Linear Regression': LinearRegression(),
+    'Decision Tree': DecisionTreeRegressor(random_state=42),
+    'Random Forest': RandomForestRegressor(random_state=42),
+    'XGBoost': xgb.XGBRegressor(objective='reg:squarederror', random_state=42)
+}
+
+# Define a parameter grid for XGBoost
+param_grid = {
+    'regressor__n_estimators': [100, 200, 300],
+    'regressor__max_depth': [3, 4, 5, 6],
+    'regressor__learning_rate': [0.01, 0.05, 0.1],
+    'regressor__subsample': [0.6, 0.8, 1.0],
+    'regressor__colsample_bytree': [0.6, 0.8, 1.0]
+}
+
+# Perform RandomizedSearchCV for XGBoost
+xgb_pipeline = Pipeline(steps=[('preprocessor', preprocessor),
+                               ('regressor', models['XGBoost'])])
+
+random_search = RandomizedSearchCV(estimator=xgb_pipeline, param_distributions=param_grid,
+                                   n_iter=50, scoring='neg_mean_squared_error', cv=3, verbose=1, random_state=42, n_jobs=-1)
+
+random_search.fit(X_train, y_train)
+
+# Get the best model
+best_xgb_model = random_search.best_estimator_
+
+# Train and evaluate each model
+results = {}
+for name, model in models.items():
+    if name == 'XGBoost':
+        pipeline = best_xgb_model
+    else:
+        pipeline = Pipeline(steps=[('preprocessor', preprocessor),
+                                   ('regressor', model)])
+        pipeline.fit(X_train, y_train)
+    predictions = pipeline.predict(X_test)
+    rmse = np.sqrt(mean_squared_error(y_test, predictions))
+    results[name] = rmse
+
+# Print the results
+for name, rmse in results.items():
+    print(f'{name} - RMSE: {rmse}')
+```
+
 <div style="text-align:center; margin: 20px;">
   <img src="/images/xgboost_demo 2.png" alt="demo"/>
 </div>
