@@ -165,6 +165,10 @@ for name, rmse in results.items():
     print(f'{name} - RMSE: {rmse}')
 </code></pre>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/xgboost-demo.png" alt="Demo Results" style="width: 450px;"/>
+</div>
+
 <p>
     Voila! XGBoost has the lowest RMSE, meaning that its predicted values were closest to the true values in data.
 </p>
