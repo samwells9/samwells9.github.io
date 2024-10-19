@@ -97,7 +97,7 @@ author_profile: true
     Now, I will show you how easy it is start using XGBoost. Below, I trained a simple XGBoost model and compared to three common methods. 
 </p>
 
-<pre><code class="language-python">
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
 # Load the dataset
 data = pd.read_csv('insurance.csv')
 
@@ -164,10 +164,6 @@ for name, model in models.items():
 for name, rmse in results.items():
     print(f'{name} - RMSE: {rmse}')
 </code></pre>
-
-<div style="text-align:center; margin: 20px;">
-  <img src="/images/xgboost_demo 2.png" alt="demo"/>
-</div>
 
 <p>
     Voila! XGBoost has the lowest RMSE, meaning that its predicted values were closest to the true values in data.
