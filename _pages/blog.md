@@ -56,7 +56,7 @@ author_profile: true
       applications in big data.
   </li>
   <li>
-      Flexibility: XGBoost is highly adaptable, offering built-in functions for handling missing values and responding well to outliers. It includes tons of tuning parameters, which allows users to customize the model depending on the task and dataset. By          creating a simple parameter grid, users can quickly test various combinations of hyperparameters to identify the optimal configuration for their problem.
+      Flexibility: XGBoost is highly adaptable, offering built-in functions for handling missing values and responding well to outliers. It includes tons of tuning parameters, which allows users to customize the model depending on the task and dataset. By creating a simple parameter grid, users can quickly test various combinations of hyperparameters to identify the optimal configuration for their problem.
   </li>
   <li>
       Performance: As XGBoost is a tree-based method, it is capable of identifying complex, non-linear relationships in the data. It also uses regularization parameters (<a href="https://www.youtube.com/watch?v=NGf0voTMlcs">L1</a> and <a   
@@ -166,7 +166,7 @@ for name, rmse in results.items():
 </code></pre>
 
 <div style="text-align:center; margin: 20px;">
-  <img src="/images/xgboost-demo.png" alt="Demo Results" style="width: 450px;"/>
+  <img src="/images/xgboost-demo 2.png" alt="Demo Results" style="width: 450px;"/>
 </div>
 
 <p>
