@@ -8,6 +8,13 @@ author_profile: true
 
 <summary style="cursor: pointer; font-weight: bold;">Generating Winning Insights: A Guide to Collecting and Curating Soccer Data</summary>
 
+<p>
+  Soccer has always been a game of skill and strategy, but in recent years, the explosion of data has revolutionized how we analyze the sport. The sheer volume of data now 
+  available is transforming how teams measure performance and make decisions. As more data becomes accessible, it’s reshaping coaching 
+  strategies, player development, and even fan engagement. This surge of data is changing the game, and those who are able to use it successfully put themselves in prime position 
+  to gain a competitive advantage over their opponents.
+</p>
+
 </details>
 
 <details>
