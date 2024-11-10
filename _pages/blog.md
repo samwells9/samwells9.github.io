@@ -1,10 +1,13 @@
 ---
 permalink: /blog/
-title: "Latest"
+title: "Posts"
 author_profile: true
 ---
 
 <details>
+
+<summary style="cursor: pointer; font-weight: bold;">Generating Winning Insights: A Guide to Collecting and Curating Soccer Data"</summary>
+
 <summary style="cursor: pointer; font-weight: bold;">Kaggle Slayer: Introduction to XGBoost</summary>
 
 <p>
