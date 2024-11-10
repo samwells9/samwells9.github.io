@@ -8,6 +8,10 @@ author_profile: true
 
 <summary style="cursor: pointer; font-weight: bold;">Generating Winning Insights: A Guide to Collecting and Curating Soccer Data"</summary>
 
+</details>
+
+<details>
+
 <summary style="cursor: pointer; font-weight: bold;">Kaggle Slayer: Introduction to XGBoost</summary>
 
 <p>
@@ -190,6 +194,7 @@ for name, rmse in results.items():
     Now that you have some basic information, I would encourage you to try it yourself. With a bit of practice, I am confident you will become a   
     master of XGBoost, slaying even the mightiest of Kaggle competitions in no time. 
 </p>
+
 </details>
 
 
