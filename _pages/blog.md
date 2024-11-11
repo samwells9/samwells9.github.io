@@ -37,7 +37,7 @@ author_profile: true
 </p>
 
 <p>
-  Quantifying form allows us to recognize when a team is on an upward trajectory or facing underlying issues before they show up in the win-loss column. By analyzing factors such 
+  Quantifying form allows us to recognize when a team is on an upward trajectory or dealing with serious issues before they show up in the win-loss column. By analyzing factors such 
   as possession, strength of the opponent, chances created, and recent results, we can gain a deeper understanding of when things are going especially well or poorly. This 
   approach enables us to look beyond short-term outcomes and assess the true health of a team’s performance. If successful, a model like this could help teams identify additional 
   strengths and weaknesses, guiding critical decisions like player acquisitions or potential coaching changes.
