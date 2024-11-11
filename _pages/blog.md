@@ -8,6 +8,8 @@ author_profile: true
 
 <summary style="cursor: pointer; font-weight: bold;">Generating Winning Insights: A Guide to Collecting and Curating Soccer Data</summary>
 
+<h3>Introduction</h3>
+
 <p>
   Soccer has always been a game of skill and strategy, but in recent years, the explosion of data is revolutionizing how we approach the sport. The sheer volume of data 
   available is transforming how teams measure performance and make decisions. This surge of data is changing the game, and those who are able to use it to generate powerful 
@@ -25,16 +27,20 @@ author_profile: true
   will walk you through the process of collection and curation for soccer data. Now, let's lace up our cleats and set you on the path towards game-winning analysis!
 </p>
 
+<h3>Research Question</h3>
+
 <p>
   The question motivating our analysis is: Can we use match data to accurately quantify and track a team’s form? In soccer, "form" goes beyond wins, losses, and draws; it 
-  encompasses the underlying quality and consistency of a team’s performance over time. By tracking a team’s form with detailed match data, we gain a clearer picture of trends 
+  encompasses the underlying quality and consistency of a team’s performance over time. By tracking a team’s form with detailed match data, we may gain a clearer picture of trends 
   that may not be visible in the final scores alone. For example, a team might be creating high-quality chances consistently, even if the results aren’t showing on the scoreboard  
   yet. Conversely, a team winning matches might be showing signs of poor form if they’re frequently outperformed by their opponents.
 </p>
+
 <p>
   Quantifying form allows us to recognize when a team is on an upward trajectory or experiencing underlying issues before they manifest in results. By analyzing factors like 
-  possession, shot quality, and defensive stability, we can monitor when things are going especially well or poorly. This approach lets us look past short-term results to 
-  understand the true health of a team’s performance, ultimately giving fans, analysts, and coaches valuable insights into both strengths and potential areas of improvement. 
+  possession, strength of the opponent, chances created, and recent results, we can monitor when things are going especially well or poorly. This approach lets us look past short- 
+  term results to understand the true health of a team’s performance. If successful, this model could aid in team decisions, such as which players to play or when to make a 
+  coaching change.
 </p>
 
 </details>
@@ -42,6 +48,8 @@ author_profile: true
 <details>
 
 <summary style="cursor: pointer; font-weight: bold;">Kaggle Slayer: Introduction to XGBoost</summary>
+
+<h3>Introduction</h3>
 
 <p>
   Every Kaggle competition presents unique obstacles—requiring the sharpest of skills and the most powerful of tools. In this post, I will introduce you to the greatest of weapons—one every data scientist must have in their arsenal: <span 
