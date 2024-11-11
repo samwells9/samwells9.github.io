@@ -50,7 +50,10 @@ author_profile: true
 <h3>Data Collection</h3>
 
 <p>
-  For the initial collection, I decided to gather Premier League match data for Manchester United between 2018 and 2024.
+  For the initial collection, I decided to gather Premier League match data for Manchester United between 2018 and 2024. I obtained the data using the <a 
+  href="https://www.api-football.com">API-Football</a>, a high-quality API that is easy to use and covers over 1000 leagues around the world. API-Football is a product of API- 
+  Sports, a company that has well-documented APIs for all of the world's major sports. There are two ways to use the API, through the API-Sports interface or with RapidAPI. I 
+  tried both and had an easier time using the API-Sports version, so that is what I will use for the demonstration.
 </p>
 
 </details>
