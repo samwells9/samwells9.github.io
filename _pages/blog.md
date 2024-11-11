@@ -30,10 +30,10 @@ author_profile: true
 <h3>Research Question</h3>
 
 <p>
-  The question motivating our analysis is: Can we use match data to accurately quantify and track a team’s form? In soccer, "form" goes beyond wins, losses, and draws; it 
-  encompasses the underlying quality and consistency of a team’s performance over time. By tracking a team’s form with detailed match data, we may gain a clearer picture of trends 
-  that may not be visible in the final scores alone. For example, a team might be creating high-quality chances consistently, even if the results aren’t showing on the scoreboard  
-  yet. Conversely, a team winning matches might be showing signs of poor form if they’re frequently outperformed by their opponents.
+  The question motivating our analysis is: Can we use match data to build a model that accurately quantifies and tracks a team’s form? In soccer, "form" goes beyond wins, losses, 
+  and draws; it encompasses the underlying quality and consistency of a team’s performance over time. By tracking a team’s form with detailed match data, we may gain a clearer 
+  picture of trends that may not be visible in the final scores alone. For example, a team might be creating high-quality chances consistently, even if the results aren’t showing 
+  on the scoreboard yet. Conversely, a team winning matches might be showing signs of poor form if they’re frequently outperformed by their opponents.
 </p>
 
 <div style="text-align:center; margin: 20px;">
@@ -42,9 +42,9 @@ author_profile: true
 
 <p>
   Quantifying form allows us to recognize when a team is on an upward trajectory or dealing with serious issues before they show up in the win-loss column. By analyzing factors 
-  such as possession, strength of the opponent, chances created, and recent results, we can gain a deeper understanding of when things are going especially well or poorly. This 
-  approach enables us to look beyond short-term outcomes and assess the true health of a team’s performance. If successful, a model like this could help teams know when they are 
-  meaningfully improving, or when it may be time to hit the panic button.
+  such as possession, strength of the opponent, chances created, and recent results, we may be able to gain a deeper understanding of when things are going especially well or 
+  poorly. This approach would enable us to look beyond short-term outcomes and assess the true health of a team’s performance. If successful, a model like this could help teams 
+  know when they are improving enough to trust the process, or when it may be time to hit the panic button.
 </p>
 
 </details>
