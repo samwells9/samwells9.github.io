@@ -22,7 +22,7 @@ author_profile: true
 <p>
   One key to the generation of meaningful insights is effective data collection and curation. The quality of 
   your analysis will heavily depend on the quality of the data you are working with, so it is crucial that these steps are not overlooked. In this post, I 
-  will walk you through the process of collection and curation for soccer data. Now, let's lace up our cleats and start you on the path towards game-winning analysis!
+  will walk you through the process of collection and curation for soccer data. Now, let's lace up our cleats and set you on the path towards game-winning analysis!
 </p>
 
 </details>
