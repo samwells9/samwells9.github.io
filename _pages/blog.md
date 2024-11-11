@@ -11,14 +11,19 @@ author_profile: true
 <p>
   Soccer has always been a game of skill and strategy, but in recent years, the explosion of data is revolutionizing how we approach the sport. The sheer volume of data now 
   available is transforming how teams measure performance and make decisions. This surge of data is changing the game, and those who are able to use it to generate powerful 
-  insights have the potential to gain an competitive edge over their opponents. One key to the generation of insights is effective data collection and curation. The quality of 
-  your analysis will heavily depend on the quality of the data you are working with, so it is crucial that these steps are not overlooked. In this post, I 
-  will show you how to collect and prepare soccer data for analysis. Now, let's lace up our cleats and kick-start your path to insightful soccer analysis!
-</p>
-
+  insights have the potential to gain an competitive edge over their opponents.
+  
 <div style="text-align:center; margin: 20px;">
   <img src="/images/treble.png" alt="Treble Winners Manchester United" style="width: 450px;"/>
 </div>
+
+</p>
+
+<p>
+  One key to the generation of insights is effective data collection and curation. The quality of 
+  your analysis will heavily depend on the quality of the data you are working with, so it is crucial that these steps are not overlooked. In this post, I 
+  will walk you through processes of collection and curation for soccer data. Now, let's lace up our cleats and kick-start your path to game-winning analysis!
+</p>
 
 </details>
 
