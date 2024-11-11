@@ -16,6 +16,10 @@ author_profile: true
   will show you how to collect and prepare soccer data for analysis. Now, let's lace up our cleats and kick-start your path to insightful soccer analysis!
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/treble.png" alt="Treble Winners Manchester United" style="width: 450px;"/>
+</div>
+
 </details>
 
 <details>
