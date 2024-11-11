@@ -36,6 +36,10 @@ author_profile: true
   yet. Conversely, a team winning matches might be showing signs of poor form if they’re frequently outperformed by their opponents.
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/trends.png" alt="Trend Photo" style="width: 450px;"/>
+</div>
+
 <p>
   Quantifying form allows us to recognize when a team is on an upward trajectory or dealing with serious issues before they show up in the win-loss column. By analyzing factors such 
   as possession, strength of the opponent, chances created, and recent results, we can gain a deeper understanding of when things are going especially well or poorly. This 
