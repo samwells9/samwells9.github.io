@@ -47,6 +47,12 @@ author_profile: true
   know when they are improving enough to trust the process, or when it may be time to hit the panic button.
 </p>
 
+<h3>Data Collection</h3>
+
+<p>
+  For the initial collection, I decided to gather Premier League match data for Manchester United between 2018 and 2024.
+</p>
+
 </details>
 
 <details>
