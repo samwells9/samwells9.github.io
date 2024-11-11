@@ -25,6 +25,18 @@ author_profile: true
   will walk you through the process of collection and curation for soccer data. Now, let's lace up our cleats and set you on the path towards game-winning analysis!
 </p>
 
+<p>
+  The question motivating our analysis is: Can we use match data to accurately quantify and track a team’s form? In soccer, "form" goes beyond wins, losses, and draws; it 
+  encompasses the underlying quality and consistency of a team’s performance over time. By tracking a team’s form with detailed match data, we gain a clearer picture of trends 
+  that may not be visible in the final scores alone. For example, a team might be creating high-quality chances consistently, even if the results aren’t showing on the scoreboard  
+  yet. Conversely, a team winning matches might be showing signs of poor form if they’re frequently outperformed by their opponents.
+</p>
+<p>
+  Quantifying form allows us to recognize when a team is on an upward trajectory or experiencing underlying issues before they manifest in results. By analyzing factors like 
+  possession, shot quality, and defensive stability, we can monitor when things are going especially well or poorly. This approach lets us look past short-term results to 
+  understand the true health of a team’s performance, ultimately giving fans, analysts, and coaches valuable insights into both strengths and potential areas of improvement. 
+</p>
+
 </details>
 
 <details>
