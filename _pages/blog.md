@@ -88,11 +88,59 @@ author_profile: true
     api_key = file.read().strip()
 </code></pre>
 
-
+<p>
+  This code reads your txt file and makes your key a variable. Anytime you need to use it, you can simply call the api_key variable, ensuring that the actual key value is never      exposed. 
+</p>
 
 <p>
-  This code reads your txt file and makes your key a variable. Anytime you need to use it, you can simply call the api_key variable, ensuring that the actual key value is never      exposed.
+  I started by using the fixtures endpoint to pull all of Manchester United's Premier League fixtures for each year. When I tried to run a loop that would pull the data for all 
+  the years in one go, it would only fetch some of them, so I did it one year at a time instead. Here is an example:
 </p>
+
+<pre style="text-align: center; font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+import requests
+import pandas as pd
+import time
+
+  url = "https://v3.football.api-sports.io/fixtures"
+
+# Initial query parameters: Premier League (league=39), season for the current year
+querystring = {"league": "39", "season": "2018", "team": "33"}
+
+headers = {
+    "x-apisports-key": str(api_key)
+}
+
+# Initialize an empty list to hold all fixture statistics
+fixture_stats = []
+
+# Make the API request
+response = requests.get(url, headers=headers, params=querystring)
+
+time.sleep(60)  # Wait for 60 seconds
+
+result = response.json()
+
+# Extract the fixtures data from the current page
+fixtures = result.get('response', [])
+
+# Add fixture statistics to the list
+for fixture in fixtures:
+    fixture_info = {
+        'fixture_id': fixture['fixture']['id'],
+        'date': fixture['fixture']['date'],
+        'status': fixture['fixture']['status']['long'],
+        'home_team': fixture['teams']['home']['name'],
+        'away_team': fixture['teams']['away']['name'],
+        'home_score': fixture['goals']['home'],
+        'away_score': fixture['goals']['away'],
+        'league': fixture['league']['name']
+    }
+    fixture_stats.append(fixture_info)
+
+# Create a DataFrame from the fixture statistics list
+df_fixtures_2018 = pd.DataFrame(fixture_stats)
+</code></pre>
 
 </details>
 
