@@ -337,16 +337,18 @@ goals_allowed_per_game_by_month_year['average_goals_allowed_per_game'] = goals_a
 
 <p>
   This is just one example of the many things we can look at with our data. With some more analysis, we will be well on our way towards building a model to track the team's 
-  form. As you go about creating your own dataset, think about what else you could add and what questions you might ask to derive deeper insights about a team's current trend. If 
-  you would like to learn more about how the data boom is shaping soccer, I would highly recommend <a href="https://www.amazon.com/Football-Hackers-Science-Data- 
+  form. As you go about creating your own dataset, think about what else you could add and what questions you might ask to derive deeper insights about a team's current trend. 
+</p>
+<p>
+  If you would like to learn more about how the data boom is shaping soccer, I would highly recommend <a href="https://www.amazon.com/Football-Hackers-Science-Data- 
   Revolution/dp/1788702050/ref=asc_df_1788702050?mcid=0778f8cc61f338c8966c747b9489671e&tag=hyprod- 
   20&linkCode=df0&hvadid=693608721823&hvpos=&hvnetw=g&hvrand=15295822945045814355&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029858&hvtargid=pla-7  
-  57604096041&psc=1">Football Hackers: The Science and Art of a Data Revolution</a>. It might help you learn how to think like a data scientist in the context of soccer, or give 
-  you some ideas for a future project.
+  57604096041&psc=1">Football Hackers: The Science and Art of a Data Revolution</a>. Maybe it could give you some ideas for a future project!
 </p>
 
 <p>
-  Lastly, if you are interested in my code for this project, it can be found <a href="https://github.com/sballs9/Soccer_Team_Form_Analysis/tree/main">here</a>. Vamos!
+  Lastly, if you are interested in my code for this project, it can be found <a href="https://github.com/sballs9/Soccer_Team_Form_Analysis/tree/main">here</a>. I hope this was 
+  helpful, and I am sure you will be generating game-winning insights in no time. Vamos!
 </p>
 
 </details>
