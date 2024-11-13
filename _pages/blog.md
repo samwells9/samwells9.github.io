@@ -83,7 +83,7 @@ author_profile: true
   Perfect! Now your API key will not show up on your github page when make changes to your repository. In order to access it during collection, you can use the following code:
 </p>
 
-<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+<pre style="text-align:center; font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
   with open('soccer_key.txt', 'r') as file:
     api_key = file.read().strip()
 </code></pre>
