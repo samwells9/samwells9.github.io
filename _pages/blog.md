@@ -260,9 +260,9 @@ final_df = pd.merge(past_fixtures_df, df_match_statistics, on='fixture_id')
 <p>
   The final dataframe has 239 matches and the following 24 features: fixture_id, date, home_team, away_team, home_score, away_score, Shots on Goal, Shots off Goal, Total Shots, 
   Blocked Shots, Shots insidebox, Shots outsidebox, Fouls, Corner Kicks, Offsides, Ball Possession, Yellow Cards, Red Cards, Goalkeeper Saves, Total Passes, Accurate Passes, Pass 
-  %, expected_goals, and goals_prevented. One thing I was interested in looking at was the average number of goals that Manchester United was scoring and allowing by month across    the years. In order to do that, I split the dataframe into two so that I could new columns for goals scored and allowed when Manchester United was the home team versus when they 
-  were the away team. Once those new columns were created, I rejoined the dataframes, grouped by month and year, and calculated the average number of goals scored and allowed by 
-  Manchester United per month. Here is how I did it: 
+  %, expected_goals, and goals_prevented. One thing I was interested in looking at was the average number of goals that Manchester United was scoring and allowing by month across    the years. In order to do that, I split the dataframe into two so that I could create new columns for goals scored and allowed when Manchester United was the home team versus 
+  when they were the away team. Once those new columns were created, I rejoined the dataframes, grouped by month and year, and calculated the average number of goals scored and 
+  allowed by Manchester United per month. Here is how I did it: 
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
