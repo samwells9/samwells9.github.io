@@ -326,6 +326,10 @@ goals_allowed_per_game_by_month_year['average_goals_allowed_per_game'] = goals_a
   well, and when they were performly poorly, on both sides of the ball. 
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/Goals_by_month_year.png" alt="gitignore" style="width: 750px;"/>
+</div>
+
 </details>
 
 <details>
