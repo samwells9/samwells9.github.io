@@ -257,6 +257,75 @@ final_df = pd.merge(past_fixtures_df, df_match_statistics, on='fixture_id')
 
 <h3>Data Summary</h3>
 
+<p>
+  The final dataframe has 239 matches and the following 24 features: fixture_id, date, home_team, away_team, home_score, away_score, Shots on Goal, Shots off Goal, Total Shots, 
+  Blocked Shots, Shots insidebox, Shots outsidebox, Fouls, Corner Kicks, Offsides, Ball Possession, Yellow Cards, Red Cards, Goalkeeper Saves, Total Passes, Accurate Passes, Pass 
+  %, expected_goals, and goals_prevented. One thing I was interested in looking at was the average number of goals that Manchester United was scoring and allowing by month across    the years. In order to do that, I split the dataframe into two so that I could new columns for goals scored and allowed when Manchester United was the home team versus when they 
+  were the away team. Once those new columns were created, I rejoined the dataframes, grouped by month and year, and calculated the average number of goals scored and allowed by 
+  Manchester United per month. Here is how I did it: 
+</p>
+
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+# Filter matches where Manchester United is the home team
+
+home_matches = final_df[final_df['home_team'] == 'Manchester United']
+
+# Filter matches where Manchester United is the away team
+
+away_matches = final_df[final_df['away_team'] == 'Manchester United']
+
+# Calculate goals scored by Manchester United as home team
+
+home_matches['man_utd_goals'] = home_matches['home_score']
+
+# Calculate goals scored by Manchester United as away team
+
+away_matches['man_utd_goals'] = away_matches['away_score']
+
+# Combine home and away matches
+
+man_utd_matches = pd.concat([home_matches, away_matches])
+
+# Group by year and month and calculate the average goals per game
+
+goals_per_game_by_month_year = man_utd_matches.groupby(['year', 'month']).agg(
+    total_goals=('man_utd_goals', 'sum'),
+    games_played=('man_utd_goals', 'count')
+).reset_index()
+
+# Calculate average goals per game
+
+goals_per_game_by_month_year['average_goals_per_game'] = goals_per_game_by_month_year['total_goals'] / goals_per_game_by_month_year['games_played']
+
+# Calculate goals allowed by Manchester United as home team
+
+home_matches['goals_allowed'] = home_matches['away_score']
+
+# Calculate goals allowed by Manchester United as away team
+
+away_matches['goals_allowed'] = away_matches['home_score']
+
+# Combine home and away matches
+
+man_utd_matches = pd.concat([home_matches, away_matches])
+
+# Group by year and month and calculate the average goals allowed per game
+
+goals_allowed_per_game_by_month_year = man_utd_matches.groupby(['year', 'month']).agg(
+    total_goals_allowed=('goals_allowed', 'sum'),
+    games_played=('goals_allowed', 'count')
+).reset_index()
+
+# Calculate average goals allowed per game
+
+goals_allowed_per_game_by_month_year['average_goals_allowed_per_game'] = goals_allowed_per_game_by_month_year['total_goals_allowed'] / goals_allowed_per_game_by_month_year['games_played']
+</code></pre>
+
+<p>
+  The last step was to visualize that data using matplotlib. I created a simple line graph with both averages so that I could understand when Manchester United was performing 
+  well, and when they were performly poorly, on both sides of the ball. 
+</p>
+
 </details>
 
 <details>
