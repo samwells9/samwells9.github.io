@@ -52,15 +52,20 @@ author_profile: true
 <p>
   For the initial collection, I decided to gather Premier League match data for Manchester United between 2018 and 2024. I obtained the data using <a 
   href="https://www.api-football.com">API-Football</a>, a high-quality, easy to use API with tons of available data. There are two ways to use the API, through the API-Sports 
-  interface or with RapidAPI. I tried both and had an easier time using the API-Sports version, so that is what I will use for the demonstration.
+  interface or with RapidAPI. I tried both and had an easier time using the API-Sports version, so that is what I will use for the demonstration. API-Football is free to use. The 
+  free plan comes with 100 requests per day, and gives you access to all the competitions and endpoints. Upon signing up, you will be given an API 
+  key and access to a dashboard to track your requests. 
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/dashboard.png" alt="API-Sports Dashboard" style="width: 450px;"/>
+</div>
+
 <p>
-  API-Football is free to use. The free plan comes with 100 requests per day, and gives you access to all the competitions and endpoints. Upon signing up, you will be given an API 
-  key and access to a dashboard to track your requests. The most important factor in ensuring that my data was gathered ethically was keeping the API key private. I also read 
-  through the terms and service, which emphasized the importance of not selling the data. The data is provided for users to create projects, and that is all we are doing today, 
-  so we can move forward confident that our use of the data is ethical. You can find the documentation <a href="https://www.api-football.com/documentation-v3">here</a>. I would 
-  highly recommend having it pulled up as you work. Let's code!
+  The data I pulled for this project required 240 requests, so you can either gather the data over a few days or upgrade to a plan that allows for more daily requests. The most 
+  important task for ensuring that my data was gathered ethically was keeping the API key private. I also read through the terms and service, which emphasized the importance of 
+  not selling the data. The data is provided for users to create projects, and that is all we are doing today, so we can move forward confident that our use of the data is 
+  ethical. You can find the documentation <a href="https://www.api-football.com/documentation-v3">here</a>. I would highly recommend having it pulled up as you work. Let's code!
 </p>
 
 <p>
