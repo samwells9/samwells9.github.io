@@ -64,7 +64,7 @@ author_profile: true
 </p>
 
 <p>
-  First, let's make sure our API key is only visible to us. Create a txt file, then copy and past your API key on the first line.
+  First, let's make sure your API key is only visible to you. Create a txt file, then copy and past your API key on the first line.
 </p>
 
 <div style="text-align:center; margin: 20px;">
@@ -80,7 +80,7 @@ author_profile: true
 </div>
 
 <p>
-  Perfect! Now your API key will not show up on your github page when make changes to your repository. In order to access it during collection, we use the following code:
+  Perfect! Now your API key will not show up on your github page when make changes to your repository. In order to access it during collection, you can use the following code:
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
@@ -89,7 +89,7 @@ author_profile: true
 </code></pre>
 
 <p>
-  This code reads our txt file and makes our key a variable. Anytime we need to use it, we can simply call api_key, ensuring that the actual key value is never exposed.
+  This code reads your txt file and makes your key a variable. Anytime you need to use it, you can simply call the api_key variable, ensuring that the actual key value is never      exposed.
 </p>
 
 </details>
