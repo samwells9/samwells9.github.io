@@ -260,7 +260,12 @@ final_df = pd.merge(past_fixtures_df, df_match_statistics, on='fixture_id')
 <p>
   The final dataframe has 239 matches and the following 24 features: fixture_id, date, home_team, away_team, home_score, away_score, Shots on Goal, Shots off Goal, Total Shots, 
   Blocked Shots, Shots insidebox, Shots outsidebox, Fouls, Corner Kicks, Offsides, Ball Possession, Yellow Cards, Red Cards, Goalkeeper Saves, Total Passes, Accurate Passes, Pass 
-  %, expected_goals, and goals_prevented. One thing I was interested in looking at was the average number of goals that Manchester United was scoring and allowing by month across    the years. In order to do that, I split the dataframe into two so that I could create new columns for goals scored and allowed when Manchester United was the home team versus 
+  %, expected_goals, and goals_prevented. 
+</p>
+
+<p>
+  One thing I was interested in looking at was the average number of goals that Manchester United was scoring and allowing by month across    the years. In order to do that, I 
+  split the dataframe into two so that I could create new columns for goals scored and allowed when Manchester United was the home team versus 
   when they were the away team. Once those new columns were created, I rejoined the dataframes, grouped by month and year, and calculated the average number of goals scored and 
   allowed by Manchester United per month. Here is how I did it: 
 </p>
@@ -329,6 +334,20 @@ goals_allowed_per_game_by_month_year['average_goals_allowed_per_game'] = goals_a
 <div style="text-align:center; margin: 20px;">
   <img src="/images/Goals_by_month_year.png" alt="gitignore" style="width: 750px;"/>
 </div>
+
+<p>
+  This is just one example of the many things we can look at with our data. With some more analysis, we will be well on our way towards building a model to track the team's 
+  form. As you go about creating your own dataset, think about what else you could add and what questions you might ask to derive deeper insights about a team's current trend. If 
+  you would like to learn more about how the data boom is shaping soccer, I would highly recommend <a href="https://www.amazon.com/Football-Hackers-Science-Data- 
+  Revolution/dp/1788702050/ref=asc_df_1788702050?mcid=0778f8cc61f338c8966c747b9489671e&tag=hyprod- 
+  20&linkCode=df0&hvadid=693608721823&hvpos=&hvnetw=g&hvrand=15295822945045814355&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029858&hvtargid=pla-7  
+  57604096041&psc=1">Football Hackers: The Science and Art of a Data Revolution</a>. It might help you learn how to think like a data scientist in the context of soccer, or give 
+  you some ideas for a future project.
+</p>
+
+<p>
+  Lastly, if you are interested in my code for this project, it can be found <a href="https://github.com/sballs9/Soccer_Team_Form_Analysis/tree/main">here</a>. Vamos!
+</p>
 
 </details>
 
@@ -507,7 +526,8 @@ for name, rmse in results.items():
 <h3>Conclusion</h3>
 
 <p>
-    With this brief introduction, I hope you have started to appreciate the power of XGBoost. I have avoided diving into the math behind the method here, but if you're interested, it’s fascinating to see what’s happening under the hood.
+    With this brief introduction, I hope you have started to appreciate the power of XGBoost. I have avoided diving into the math behind the method here, but if you're interested, 
+    it’s fascinating to see what’s happening under the hood.
 </p>
 
 <p>
