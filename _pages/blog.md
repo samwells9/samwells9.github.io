@@ -62,10 +62,14 @@ author_profile: true
 </div>
 
 <p>
-  The data I pulled for this project required 240 requests, so you can either gather the data over a few days or upgrade to a plan that allows for more daily requests. The most 
-  important task for ensuring that my data was gathered ethically was keeping the API key private. I also read through the terms and service, which emphasized the importance of 
-  not selling the data. The data is provided for users to create projects, and that is all we are doing today, so we can move forward confident that our use of the data is 
-  ethical. You can find the documentation <a href="https://www.api-football.com/documentation-v3">here</a>. I would highly recommend having it pulled up as you work. Let's code!
+  The data I pulled for this project required 240 requests, so you can either gather the data over a few days or upgrade to a plan that allows for more daily requests. For this 
+  API, the most important step for ensuring ethical practice is securing your API key. I read through the terms and service, and since the data we are using is 
+  for a personal project, we can move forward confident that our use of the data is ethical as long as we keep the key private. 
+</p>  
+
+<p>
+  You can find the API documentation <a href="https://www.api-football.com/documentation-v3">here</a>. I would highly recommend having it pulled up as you work. It really helped 
+  me understand what data was available and showed me how to get exactly what I wanted. Let's code!
 </p>
 
 <p>
