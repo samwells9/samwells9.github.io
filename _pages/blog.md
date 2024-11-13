@@ -55,6 +55,13 @@ author_profile: true
   interface or with RapidAPI. I tried both and had an easier time using the API-Sports version, so that is what I will use for the demonstration.
 </p>
 
+<p>
+  API-Football is free to use. The free plan comes with 100 requests per day, and gives you access to all the competitions and endpoints. Upon signing up, you will be given an API 
+  key and access to a dashboard to track your requests. The most important factor in ensuring that my data was gathered ethically was keeping the API key private. I also read 
+  through the terms and service, which emphasized the importance of not selling their data. The data is provided for users to create projects, and that is all we are doing today, 
+  so we can move forward confident that our use of the data is ethical. 
+</p>
+
 </details>
 
 <details>
