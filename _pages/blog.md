@@ -161,8 +161,81 @@ print(df_fixtures_2018)
 </code></pre>
 
 <p>
-  
+  Once you have created a dataframe for every year, we can combine them to create a single dataframe.
 </p>
+
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+fixture_df = pd.concat([df_fixtures_2018, df_fixtures_2019, df_fixtures_2020, df_fixtures_2021, df_fixtures_2022, df_fixtures_2023, df_fixtures_2024])
+</code></pre>
+
+<p>
+  This dataframe has all the matches for 2024, including those that have not been played yet, but we do not need those, so let's take them out. It would also be easier to read if    the datetime is just the date instead. 
+</p>
+
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+past_fixtures_df = fixture_df[fixture_df['status'] == 'Match Finished']
+
+past_fixtures_df = past_fixtures_df[['fixture_id', 'date', 'home_team', 'away_team', 'home_score', 'away_score']]
+
+past_fixtures_df['date'] = pd.to_datetime(past_fixtures_df['date'])
+
+past_fixtures_df['date'] = past_fixtures_df['date'].dt.date
+</code></pre>
+
+<p>
+  Our dataframe has the fixture id, date, home team, away team, home score, and away score for every game from 2018-2024. This is a great start, but I want more detailed   
+  match statistics. In order to do that, we can use the fixture/statistics endpoint. The main purpose of creating that first dataframe was to get all the fixture ids in a single 
+  place. Now that they are, we can run a for loop that takes each fixture id and gathers the in-depth match statistics for that game. Here is how I did it:
+</p>
+
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+import requests
+import pandas as pd
+import time
+
+url = "https://v3.football.api-sports.io/fixtures/statistics"
+
+# Initial query parameters: Premier League ID (39), Year, and team ID for Manchester United (33)
+
+querystring = {"league": "39", "season": "2023", "team": "33"}
+
+headers = {
+    "x-apisports-key": str(api_key)
+}
+
+# Initialize an empty list to hold all fixture statistics
+  
+match_stats = []
+
+for fixture_id in past_fixtures_df['fixture_id']:
+    querystring = {"fixture": str(fixture_id), "team": "33"}
+
+    response = requests.get(url, headers=headers, params=querystring)
+    result = response.json()
+
+    statistics = result.get('response', [])
+
+    fixture_statistics = {
+        'fixture_id': fixture_id
+    }
+
+    for stat in statistics:
+        for item in stat['statistics']:
+            fixture_statistics[item['type']] = item['value']
+
+    # Append the fixture statistics to the list
+  
+    match_stats.append(fixture_statistics)
+
+    # Respect rate limits
+  
+    time.sleep(10)  # Adjust the sleep time as needed to stay within rate limits
+
+# Create a DataFrame from the match statistics list
+  
+df_match_statistics = pd.DataFrame(match_stats)
+  
+</code></pre>
 
 </details>
 
