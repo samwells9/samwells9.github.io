@@ -67,6 +67,22 @@ author_profile: true
   First, let's make sure our API key is only visible to us. Create a txt file, then copy and past your API key on the first line.
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/txt.png" alt="text file" style="width: 450px;"/>
+</div>
+
+<p>
+  Now, make sure your repository has a .gitignore file and add the txt file to it.
+</p>
+
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/gitignore.png" alt="gitignore" style="width: 450px;"/>
+</div>
+
+<p>
+  
+</p>
+
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
   
 </code></pre>
