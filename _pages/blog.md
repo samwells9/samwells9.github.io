@@ -251,6 +251,12 @@ final_df = pd.merge(past_fixtures_df, df_match_statistics, on='fixture_id')
   BANG! Just like that we have our tidy dataframe.
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/soccer_df.png" alt="Man United Dataframe" style="width: 750px;"/>
+</div>
+
+<h3>Data Summary</h3>
+
 </details>
 
 <details>
