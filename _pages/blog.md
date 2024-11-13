@@ -72,7 +72,7 @@ author_profile: true
 </div>
 
 <p>
-  Now, make sure your repository has a .gitignore file and add the txt file to it.
+  Next, make sure your repository has a .gitignore file and add the txt file to it.
 </p>
 
 <div style="text-align:center; margin: 20px;">
@@ -80,12 +80,17 @@ author_profile: true
 </div>
 
 <p>
-  
+  Perfect! Now your API key will not show up on your github page when make changes to your repository. In order to access it during collection, we use the following code:
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
-  
+  with open('soccer_key.txt', 'r') as file:
+    api_key = file.read().strip()
 </code></pre>
+
+<p>
+  This code reads our txt file and makes our key a variable. Anytime we need to use it, we can simply call api_key, ensuring that the actual key value is never exposed.
+</p>
 
 </details>
 
