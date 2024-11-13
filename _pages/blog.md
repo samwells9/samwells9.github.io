@@ -58,7 +58,7 @@ author_profile: true
 </p>
 
 <div style="text-align:center; margin: 20px;">
-  <img src="/images/dashboard.png" alt="API-Sports Dashboard" style="width: 600px;"/>
+  <img src="/images/dashboard.png" alt="API-Sports Dashboard" style="width: 750px;"/>
 </div>
 
 <p>
