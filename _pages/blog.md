@@ -103,7 +103,7 @@ author_profile: true
 
 <p>
   I started by using the fixtures endpoint to pull all of Manchester United's Premier League fixtures for each year. When I tried to run a loop that would pull the data for all 
-  the years in one go, it would only fetch some of them, so I did it one year at a time instead. Here is an example:
+  the years in one go, it would only fetch some of them, so I did it one year at a time instead. Here is how I did it:
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
@@ -161,7 +161,7 @@ print(df_fixtures_2018)
 </code></pre>
 
 <p>
-  Once you have created a dataframe for every year, we can combine them to create a single dataframe.
+  Once I created a dataframe for every year, I combined them to create a single dataframe.
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
@@ -169,7 +169,8 @@ fixture_df = pd.concat([df_fixtures_2018, df_fixtures_2019, df_fixtures_2020, df
 </code></pre>
 
 <p>
-  This dataframe has all the matches for 2024, including those that have not been played yet, but we do not need those, so let's take them out. It would also be easier to read if    the datetime is just the date instead. 
+  This dataframe has all the matches for 2024, including those that have not been played yet, but I did not need those, so I took them out. I thought it would be easier to read if 
+  the datetime was just the date instead, so I adjusted that as well. This is how I did that:
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
@@ -183,9 +184,10 @@ past_fixtures_df['date'] = past_fixtures_df['date'].dt.date
 </code></pre>
 
 <p>
-  Our dataframe has the fixture id, date, home team, away team, home score, and away score for every game from 2018-2024. This is a great start, but I want more detailed   
-  match statistics. In order to do that, we can use the fixture/statistics endpoint. The main purpose of creating that first dataframe was to get all the fixture ids in a single 
-  place. Now that they are, we can run a for loop that takes each fixture id and gathers the in-depth match statistics for that game. Here is how I did it:
+  The dataframe has the fixture id, date, home team, away team, home score, and away score for every game from 2018-2024. This is a great start, but I wanted more detailed   
+  match statistics. In order to do that, I used the fixture/statistics endpoint. The main purpose of creating that first dataframe was to get all the fixture ids in a single 
+  place. Now that they are, I can run a for loop that takes each fixture id and gathers the in-depth match statistics for that game. Here is how I did it (it might take a while to 
+  run):
 </p>
 
 <pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
@@ -236,6 +238,18 @@ for fixture_id in past_fixtures_df['fixture_id']:
 df_match_statistics = pd.DataFrame(match_stats)
   
 </code></pre>
+
+<p>
+  Once that finished, the final step was to merge the fixture dataframe with the match statistics dataframe. 
+</p>
+
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+final_df = pd.merge(past_fixtures_df, df_match_statistics, on='fixture_id')
+</code></pre>
+
+<p>
+  BANG! Just like that we have our tidy dataframe.
+</p>
 
 </details>
 
