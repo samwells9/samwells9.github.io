@@ -8,6 +8,11 @@ author_profile: true
 
 <summary style="cursor: pointer; font-weight: bold;">Towards Winning Insights: A Guide to Collecting and Curating Soccer Data</summary>
 
+<p>
+  This is a simple guide for gathering soccer data via an API and preparing it for basic analysis. The motivation for this demonstration is the desire to understand trends in a 
+  team's form beyond results.
+</p>
+
 <h3>Introduction</h3>
 
 <p>
