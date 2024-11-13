@@ -83,7 +83,7 @@ author_profile: true
   Perfect! Now your API key will not show up on your github page when make changes to your repository. In order to access it during collection, you can use the following code:
 </p>
 
-<pre style="text-align: center; font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
   with open('soccer_key.txt', 'r') as file:
     api_key = file.read().strip()
 </code></pre>
@@ -97,7 +97,7 @@ author_profile: true
   the years in one go, it would only fetch some of them, so I did it one year at a time instead. Here is an example:
 </p>
 
-<pre style="text-align: center; font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
+<pre style="font-size: 12px; padding: 10px; line-height: 1.2;"><code class="language-python">
 import requests
 import pandas as pd
 import time
