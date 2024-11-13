@@ -248,7 +248,7 @@ final_df = pd.merge(past_fixtures_df, df_match_statistics, on='fixture_id')
 </code></pre>
 
 <p>
-  BANG! Just like that we have our tidy dataframe.
+  Sensational! Just like that we have our tidy dataframe.
 </p>
 
 <div style="text-align:center; margin: 20px;">
