@@ -353,7 +353,7 @@ goals_allowed_per_game_by_month_year['average_goals_allowed_per_game'] = goals_a
 
 <p>
   Lastly, if you are interested in my code for this project, it can be found <a href="https://github.com/sballs9/Soccer_Team_Form_Analysis/tree/main">here</a>. I hope this was 
-  helpful, and I am sure you will be generating game-winning insights in no time. Vamos!
+  helpful, and I am sure that with a little practice, you will be generating game-winning insights in no time. Best of luck!
 </p>
 
 </details>
