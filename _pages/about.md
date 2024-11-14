@@ -6,4 +6,8 @@ author_profile: true
 
 I am currently a senior at Brigham Young University, majoring in Statistics and minoring in Mathematics, with plans to pursue a PhD in Statistics in the fall of 2025. My research interests lie broadly in Bayesian inference and statistical learning, independently and at their intersection. I am also open to conducting research related to algorithmic fairness and ethical AI. I am excited to apply statistics in diverse fields, such as economics, policy, public health, and sports. 
 
-*"At its core statistics is not about cleverness and technique, but rather about honesty. Its real contribution to society is primarily moral, not technical."* - Stephen B. Vardeman and Max D. Morris
+<div style="text-align: center; max-width: 450px; margin: auto;">
+    <em>“At its core statistics is not about cleverness and technique, but rather about honesty. Its real contribution to society is primarily moral, not technical.”</em>
+    <br><br>
+    <div style="text-align: right;">— Stephen B. Vardeman and Max D. Morris</div>
+</div>
