@@ -9,5 +9,5 @@ I am currently a senior at Brigham Young University, majoring in Statistics and 
 <div style="text-align: center; max-width: 500px; margin: auto;">
     <em>“At its core statistics is not about cleverness and technique, but rather about honesty. Its real contribution to society is primarily moral, not technical.”</em>
     <br><br>
-    <div style="text-align: right;">Stephen B. Vardeman and Max D. Morris</div>
+    <div style="text-align: center;">Stephen B. Vardeman and Max D. Morris</div>
 </div>
