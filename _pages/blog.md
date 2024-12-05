@@ -10,7 +10,7 @@ author_profile: true
 
 <p>
     In this post, I more thoroughly explore the data we collected in the previous post. I will summarize a key insight that I derived and explain the Streamlit app that I   
-    created to help gain a better understanding of the trends in Manchester United's performance over the years.
+    created to help me gain a better understanding of the trends in Manchester United's performance over the years.
 </p>
 
 <h3>Introduction</h3>
