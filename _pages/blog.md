@@ -30,6 +30,9 @@ To me, the disparity among the boxplots was shocking. Upon initial observation, 
 If this hypothesis holds true, it would highlight the predictive and analytical value of expected goals. This insight would be critical as we move toward building a model to track and evaluate Manchester United's form over time. Including expected goals as a feature in our model could provide a deeper understanding of performance trends, beyond surface-level statistics like possession or shot counts. This would allow us to assess whether the team is generating high-quality scoring chances consistently, regardless of match results, and how that aligns with overall form.
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/expected_goals.png" alt="expected goals" style="width: 600px;"/>
+</div>
 
 <p>
 Incorporating expected goals in our analysis could also provide a more nuanced lens through which to view Manchester United’s matches, highlighting underperformance in games where the xG was high but the result didn’t align. Conversely, it could reveal overperformance when the team wins with a low xG. These insights could serve to help us identify areas of improvement or recognize aspects of the game in which the team is successful.
