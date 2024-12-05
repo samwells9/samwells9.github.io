@@ -49,11 +49,6 @@ This brief exploration of expected goals revealed to me its importance in helpin
 </p>
 
 <p>
-    The app serves as a tool to analyze key performance metrics with simple visualizations. By providing an interactive interface, it allows 
-    users to engage directly with the data and uncover trends that might not be immediately obvious in the static dataframe.
-</p>
-
-<p>
     On the main page of the app, the user can see and download the dataframe for personal exploration. It also has a correlation matrix of some of the variables in the dataframe. 
     Directly below that are the boxplots from earlier. The next tab has an interactive line graph that displays the average number of goals scored per month and year, as well as 
     the average number of goals allowed per month and year. This visualization should help us to understand times when the team was most efficient on both sides of the ball. Here is the interactive 
