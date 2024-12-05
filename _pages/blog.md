@@ -71,6 +71,10 @@ This brief exploration of expected goals revealed to me its importance in helpin
     be done to better understand what other metrics changed during these times and how they changed.
 </p>
 
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/piechart.png" alt="pie chart" style="width: 600px;"/>
+</div>
+
 <h3>Conclusion</h3>
 
 <p>
