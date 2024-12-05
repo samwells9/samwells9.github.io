@@ -79,7 +79,7 @@ This brief exploration of expected goals revealed to me its importance in helpin
 <p>
     This exploratory data analysis has been great in helping me understand the data in more depth. It has also sparked my curiosity about other factors that might 
     influence form, such as player availability, tactical adjustments, opposition strength, or previous matches. After completing this analysis, I feel I have the foundational 
-    knowledge necessary to start to build a model to quantify team form over time. If you would like to explore my Streamlit app, you can find it <a href="https://manutdformanalysis.streamlit.app">here</a>. Or, if 
+    knowledge necessary to start building a model that will attempt to quantify team form over time. If you would like to explore my Streamlit app, you can find it <a href="https://manutdformanalysis.streamlit.app">here</a>. Or, if 
     you are interested in seeing the code I used for the whole analysis, it can be found on my <a href="https://github.com/sballs9/Soccer_Team_Form_Analysis">Github</a>.
 </p>
   
