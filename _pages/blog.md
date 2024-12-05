@@ -45,12 +45,12 @@ This brief exploration of expected goals revealed to me its importance in helpin
 
 <p>
     To complement my analysis, I created a Streamlit app designed to make exploring the data more interactive. The app provides several features to 
-    help uncover trends and insights, offering a deeper understanding of team performance across multiple dimensions.
+    help uncover trends and insights in a simple way. This allowed me to start to understand how the data might explain team performance.
 </p>
 
 <p>
     The app serves as a tool to analyze key performance metrics with simple visualizations. By providing an interactive interface, it allows 
-    users to engage directly with the data, enabling deeper exploration to uncover trends that might not be immediately obvious in the static dataframe.
+    users to engage directly with the data and uncover trends that might not be immediately obvious in the static dataframe.
 </p>
 
 <p>
