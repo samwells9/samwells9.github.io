@@ -25,11 +25,16 @@ Expected goals (xG) has become one of the most talked-about metrics in soccer an
 
 <p>
 To me, the disparity among the boxplots was shocking. Upon initial observation, it seems that there may be a significant difference in the mean number of expected goals depending on the result of the match. Wins tend to show higher expected goals, while losses appear to have lower values, with draws falling somewhere in between. While this pattern is compelling, it’s important to validate it statistically. Running hypothesis tests, such as an ANOVA or pairwise t-tests, could confirm whether the differences in means are statistically significant.
-
+</p>
+<p>
 If this hypothesis holds true, it would highlight the predictive and analytical value of expected goals. This insight would be critical as we move toward building a model to track and evaluate Manchester United's form over time. Including expected goals as a feature in our model could provide a deeper understanding of performance trends, beyond surface-level statistics like possession or shot counts. This would allow us to assess whether the team is generating high-quality scoring chances consistently, regardless of match results, and how that aligns with overall form.
+</p>
 
+
+<p>
 Incorporating expected goals in our analysis could also provide a more nuanced lens through which to view Manchester United’s matches, highlighting underperformance in games where the xG was high but the result didn’t align. Conversely, it could reveal overperformance when the team wins with a low xG. These insights could serve to help us identify areas of improvement or recognize aspects of the game in which the team is successful.
-
+</p>
+<p>
 Even this initial exploration of expected goals reveals its potential importance in understanding team form. It’s no surprise this metric is considered revolutionary, as it has redefined how we analyze the game beyond the traditional match statistics. If you are interested in learning more about expected goals, this <a href="https://www.amazon.com/Expected-Goals-conquered-football-changed/dp/0008484031">book</a> may be worth a read.
 </p>
   
