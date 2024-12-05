@@ -6,10 +6,10 @@ author_profile: true
 
 <details>
 
-<summary style="cursor: pointer; font-weight: bold;">Exploring Manchester United's Form in the Premier League: Key Insights and Streamlit App</summary>
+<summary style="cursor: pointer; font-weight: bold;">Manchester United's Form in the Premier League: Key Insights and a Streamlit App</summary>
 
 <p>
-    In this post, I more thouroughly explore the data we collected in the previous post. I will walk through some key insights I gained and explain the streamlit app that I   
+    In this post, I more thouroughly explore the data we collected in the previous post. I will summarize a key insight that I derived and explain the streamlit app that I   
     created to help gain a better understanding of the trends in Manchester United's performance over the years.
 </p>
   
