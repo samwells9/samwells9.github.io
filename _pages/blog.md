@@ -60,6 +60,10 @@ This brief exploration of expected goals revealed to me its importance in helpin
     worst months for goals allowed. These visualizations should help us to understand times when the team was most efficient on both sides of the ball. Here is the interactive 
     line graph.
 </p>
+
+<div style="text-align:center; margin: 20px;">
+  <img src="/images/linegraph.png" alt="line graph" style="width: 750px;"/>
+</div>
   
 </details>
 <details>
