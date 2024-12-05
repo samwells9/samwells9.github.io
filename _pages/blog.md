@@ -9,9 +9,13 @@ author_profile: true
 <summary style="cursor: pointer; font-weight: bold;">Manchester United's Form in the Premier League: Key Insights and a Streamlit App</summary>
 
 <p>
-    In this post, I more thouroughly explore the data we collected in the previous post. I will summarize a key insight that I derived and explain the streamlit app that I   
+    In this post, I more thoroughly explore the data we collected in the previous post. I will summarize a key insight that I derived and explain the streamlit app that I   
     created to help gain a better understanding of the trends in Manchester United's performance over the years.
 </p>
+
+<h3>Introduction</h3>
+
+Expected goals (xG) has become one of the most talked-about metrics in soccer analytics in recent years. This emergence is so recent, that the API I used to gather the data did not even start including it as a match statistic until 2023. Expected goals offers a way to quantify the quality of scoring chances in a match. But how well does it align with match results? To explore this, I visualized expected goals by match result using boxplots. 
   
 </details>
 <details>
