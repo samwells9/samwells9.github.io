@@ -42,6 +42,24 @@ This brief exploration of expected goals revealed to me its importance in helpin
 </p>
 
 <h3>Streamlit App</h3>
+
+<p>
+    To complement my analysis, I created a Streamlit app designed to make exploring the data more interactive. The app provides several features to 
+    help uncover trends and insights, offering a deeper understanding of team performance across multiple dimensions.
+</p>
+
+<p>
+    The app serves as a tool to analyze key performance metrics with simple visualizations. By providing an interactive interface, it allows 
+    users to engage directly with the data, enabling deeper exploration to uncover trends that might not be immediately obvious in the static dataframe.
+</p>
+
+<p>
+    On the main page of the app, the user can see and download the dataframe for personal exploration. It also has a correlation matrix of some of the variables in the dataframe. 
+    Directly below that are the boxplots from earlier. The next tab has an interactive line graph that displays the average number of goals scored per month and year, as well as 
+    the average number of goals allowed per month and year. Below that are two bar charts. One displays the top 5 best months for average goals scored and the other has top 5 
+    worst months for goals allowed. These visualizations should help us to understand times when the team was most efficient on both sides of the ball. Here is the interactive 
+    line graph.
+</p>
   
 </details>
 <details>
