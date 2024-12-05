@@ -18,7 +18,7 @@ author_profile: true
 Expected goals (xG) has become one of the most talked-about metrics in soccer analytics in recent years. This emergence is so recent, that the API I used to gather the data did not even start including it as a match statistic until 2023. Expected goals offers a way to quantify the quality of scoring chances in a match. But how well does it align with match results? To explore this, I visualized expected goals by match result using boxplots. 
 
 <div style="text-align:center; margin: 20px;">
-  <img src="/images/newplot.png" alt="boxplot" style="width: 450px;"/>
+  <img src="/images/newplot.png" alt="boxplot" style="width: 750px;"/>
 </div>
   
 </details>
@@ -39,7 +39,7 @@ Expected goals (xG) has become one of the most talked-about metrics in soccer an
   insights have the potential to gain a competitive edge that could change the course of history.
   
 <div style="text-align:center; margin: 20px;">
-  <img src="/images/treble.png" alt="Treble Winners Manchester United" style="width: 600px;"/>
+  <img src="/images/treble.png" alt="Treble Winners Manchester United" style="width: 450px;"/>
 </div>
 
 </p>
