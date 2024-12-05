@@ -64,6 +64,18 @@ This brief exploration of expected goals revealed to me its importance in helpin
 <div style="text-align:center; margin: 20px;">
   <img src="/images/linegraph.png" alt="line graph" style="width: 750px;"/>
 </div>
+
+<p>
+    The last tab allows users to use a slider to select a range of years that updates two pie charts. The charts show the proportion of wins, losses, and draws during the selected 
+    period, both home and away. It was interesting to test a bunch of different ranges and see periods where the team was performing better away than at home. More exploring could 
+    be done to better understand what other metrics changed during these times and how they changed.
+</p>
+
+<h3>Conclusion</h3>
+
+<p>
+    
+</p>
   
 </details>
 <details>
