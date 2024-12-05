@@ -38,7 +38,7 @@ If this hypothesis holds true, it would highlight the predictive and analytical 
 Incorporating expected goals in our analysis could also provide a more nuanced lens through which to view Manchester United’s matches, highlighting underperformance in games where the xG was high but the result didn’t align. Conversely, it could reveal overperformance when the team wins with a low xG. These insights could serve to help us identify areas of improvement or recognize aspects of the game in which the team is successful.
 </p>
 <p>
-Even this initial exploration of expected goals reveals its potential importance in understanding team form. It’s no surprise this metric is considered revolutionary, as it has redefined how we analyze the game beyond the traditional match statistics. If you are interested in learning more about expected goals, this <a href="https://www.amazon.com/Expected-Goals-conquered-football-changed/dp/0008484031">book</a> may be worth a read.
+Even this initial exploration of expected goals revealed to me its potential importance in understanding team form. It’s no wonder that this metric is considered revolutionary, as it has redefined how we analyze the game beyond the traditional match statistics. If you are interested in learning more about expected goals, this <a href="https://www.amazon.com/Expected-Goals-conquered-football-changed/dp/0008484031">book</a> may be worth a read.
 </p>
   
 </details>
