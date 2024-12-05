@@ -56,8 +56,7 @@ This brief exploration of expected goals revealed to me its importance in helpin
 <p>
     On the main page of the app, the user can see and download the dataframe for personal exploration. It also has a correlation matrix of some of the variables in the dataframe. 
     Directly below that are the boxplots from earlier. The next tab has an interactive line graph that displays the average number of goals scored per month and year, as well as 
-    the average number of goals allowed per month and year. Below that are two bar charts. One displays the top 5 best months for average goals scored and the other has top 5 
-    worst months for goals allowed. These visualizations should help us to understand times when the team was most efficient on both sides of the ball. Here is the interactive 
+    the average number of goals allowed per month and year. This visualization should help us to understand times when the team was most efficient on both sides of the ball. Here is the interactive 
     line graph.
 </p>
 
@@ -78,7 +77,10 @@ This brief exploration of expected goals revealed to me its importance in helpin
 <h3>Conclusion</h3>
 
 <p>
-    
+    This exploratory data analysis has been great in helping me begin to understand the data in more depth. It has sparked curiosity about other factors that might 
+    influence form, such as player availability, tactical adjustments, opposition strength, or previous matches. By identifying key variables and patterns, this analysis has laid 
+    a solid foundation for the model I aim to build to track Manchester United’s performance over time. If you would like to explore my Streamlit app, you can find it here. Or, if 
+    you are interested in seeing the code I used for the whole analysis, it can be found on my Github.
 </p>
   
 </details>
