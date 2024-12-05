@@ -20,6 +20,8 @@ Expected goals (xG) has become one of the most talked-about metrics in soccer an
 <div style="text-align:center; margin: 20px;">
   <img src="/images/newplot.png" alt="boxplot" style="width: 750px;"/>
 </div>
+
+<h3>Key Insight: The Value of Expected Goals</h3>
   
 </details>
 <details>
