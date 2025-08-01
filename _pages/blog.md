@@ -18,7 +18,7 @@ author_profile: true
     I hope it serves as a useful resource as you navigate your own path to a PhD in Statistics.
 </p>
 <p>
-    Access the full guide here: <a>Statistics PhD Admissions Guide</a>
+    Access the full guide here: <a href="/files/GradSchoolGuideStatistics2025.pdf">Statistics PhD Admissions Guide</a>
 </p>
     
 </details>
