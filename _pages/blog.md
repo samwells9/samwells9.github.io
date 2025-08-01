@@ -5,6 +5,25 @@ author_profile: true
 ---
 
 <details>
+    
+<summary style="cursor: pointer; font-weight: bold;">Maximizing Admission Likelihood: A Guide for BYU Undergraduates in Preparation for Graduate Work in Statistics</summary>
+
+<p>
+    The following document is an in-depth guide to Statistics PhD admissions. I learned a lot during the application process, and it has long been a goal of mine to share that information to others who may be interested. While originally created with BYU students in mind, the content is broadly applicable to undergraduates from any university. In sections where I refer to specific BYU courses, students from other institutions should be able to identify equivalent courses in their own programs.
+</p>
+<p>
+    DISCLAIMER: This guide reflects my personal experiences and opinions. I am not representing the BYU Statistics Department in any official capacity. I’ve done my best to cover all major aspects of the application process, but keep in mind that every program has its own requirements, and those requirements may change. I strongly encourage you to supplement this guide with advice from trusted mentors and peers. 
+</p>
+<p>
+    I hope it serves as a useful resource as you navigate your own path to a PhD in Statistics.
+</p>
+<p>
+    Access the full guide here: <a>Statistics PhD Admissions Guide</a>
+</p>
+    
+</details>
+
+<details>
 
 <summary style="cursor: pointer; font-weight: bold;">Seeking to Understand Manchester United's Form: Key Insights and a Streamlit App</summary>
 
