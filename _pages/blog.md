@@ -6,10 +6,10 @@ author_profile: true
 
 <details>
     
-<summary style="cursor: pointer; font-weight: bold;">Maximizing Admission Likelihood: A Guide for BYU Undergraduates in Preparation for Graduate Work in Statistics</summary>
+<summary style="cursor: pointer; font-weight: bold;">Statistics PhD Admissions Guide</summary>
 
 <p>
-    The following document is an in-depth guide to Statistics PhD admissions. I learned a lot during the application process, and it has long been a goal of mine to share that information to others who may be interested. While originally created with BYU students in mind, the content is broadly applicable to undergraduates from any university. In sections where I refer to specific BYU courses, students from other institutions should be able to identify equivalent courses in their own programs.
+    I learned a lot during the application process, and it has long been a goal of mine to share that information with others who may be interested. While originally created with BYU students in mind, the contents of this document are broadly applicable to undergraduates from any university. In sections where I refer to specific BYU courses, students from other institutions should be able to identify equivalent courses in their own programs.
 </p>
 <p>
     DISCLAIMER: This guide reflects my personal experiences and opinions. I am not representing the BYU Statistics Department in any official capacity. I’ve done my best to cover all major aspects of the application process, but keep in mind that every program has its own requirements, and those requirements may change. I strongly encourage you to supplement this guide with advice from trusted mentors and peers. 
@@ -18,7 +18,7 @@ author_profile: true
     I hope it serves as a useful resource as you navigate your own path to a PhD in Statistics.
 </p>
 <p>
-    Access the full guide here: <a href="/files/GradSchoolGuideStatistics2025.pdf">Statistics PhD Admissions Guide</a>
+    Access the full guide here: <a href="/files/GradSchoolGuideStatistics2025.pdf">Maximizing Admission Likelihood: A Guide for BYU Undergraduates in Preparation for Graduate Work in Statistics</a>
 </p>
     
 </details>
