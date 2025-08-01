@@ -12,7 +12,7 @@ author_profile: true
     I learned a lot during the application process, and it has long been a goal of mine to share that information with others who may be interested. While originally created with BYU students in mind, the contents of this document are broadly applicable to undergraduates from any university. In sections where I refer to specific BYU courses, students from other institutions should be able to identify equivalent courses in their own programs.
 </p>
 <p>
-    DISCLAIMER: This guide reflects my personal experiences and opinions. I am not representing the BYU Statistics Department in any official capacity. I’ve done my best to cover all major aspects of the application process, but keep in mind that every program has its own requirements, and those requirements may change. I strongly encourage you to supplement this guide with advice from trusted mentors and peers. 
+    DISCLAIMER: This guide reflects my personal experiences and opinions. I am not representing the BYU Statistics Department in any official capacity. I’ve done my best to cover all major aspects of the application process, but keep in mind that every program has its own requirements, and those requirements may change. Additionally, outcomes in graduate admissions can depend on timing, fit, and a multitude of other factors outside of our control. For this reason, I strongly encourage you to supplement this guide with advice from trusted mentors and peers. 
 </p>
 <p>
     I hope it serves as a useful resource as you navigate your own path to a PhD in Statistics.
