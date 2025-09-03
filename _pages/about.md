@@ -10,4 +10,4 @@ I am currently a PhD student in Statistics at the University of Texas at Austin.
   <img src="/images/5B88A655-CA1D-41E3-AA0F-D227E010D6A7_1_105_c.jpeg" alt="expected goals" style="width: 600px;"/>
 </div>
 
-Beyond academics, I like to stay active by playing soccer and golf. I also enjoy watching sports, playing video games, lifting weights, traveling, reading, and spending time with my wife.
+Beyond academics, I like to stay active through soccer and golf. I also enjoy watching sports, traveling, playing video games, reading, and, above all, spending time with my wife.
